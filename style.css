@@ -1,0 +1,164 @@
+body {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #b7a481;
+}
+
+.bg-wheat{
+    background-color: #ecd8b3;
+}
+
+.container-fluid {
+    padding: 3.5rem 1rem;
+}
+
+.fixed-top{
+    left:40%;
+    right: auto;
+}
+
+.information>.logo-container>img {
+    border-radius: 50%;
+}
+
+.img-thumbnail {
+    width: 140px;
+}
+
+.education,
+.projects,
+.work-experience,
+.contact {
+    display: flex;
+}
+
+.education {
+    min-height: 250px;
+}
+
+.education .title,
+.projects .title,
+.work-experience .title,
+.contact .title {
+    flex: 1;
+}
+
+.contact>.title {
+    background-color: rgb(76, 74, 78);
+    color: white;
+    box-shadow: 1px 0 4px 1px #000;
+}
+
+.contact>.title:hover {
+
+    background-color: rgb(4, 4, 22);
+}
+
+.contact .title>h1 {
+    margin-top: 23%;
+}
+
+.work-experience>.title {
+    background-color: rgb(57, 112, 79);
+    color: white;
+    box-shadow: 1px 0 4px 1px #000;
+}
+
+.work-experience>.title:hover {
+
+    background-color: rgb(25, 58, 38);
+}
+
+.work-experience .title>h1 {
+    margin-top: 23%;
+}
+
+.education>.title {
+    background-color: rgb(57, 57, 112);
+    color: white;
+    box-shadow: 1px 0 4px 1px #000;
+}
+
+.education>.title:hover {
+
+    background-color: rgb(4, 4, 22);
+}
+
+.education .title>h1 {
+    margin-top: 23%;
+}
+
+.education .description,
+.projects .project-list,
+.work-experience .description,
+.contact .description {
+    flex: 2;
+}
+
+.education>.description,
+.work-experience>.description,
+.contact>.description {
+    padding: 34px;
+}
+
+
+.description ul {
+    list-style: none;
+    text-align: left;
+}
+
+.description ul li {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-list div {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.projects .title {
+    align-self: center;
+    background-color: rgb(218, 76, 20);
+    height: 400px;
+    box-shadow: 1px 0 4px 1px #000;
+}
+
+.projects>.title:hover {
+    background-color: rgb(114, 42, 13);
+}
+
+.projects>.title h1 {
+    margin-top: 40%;
+    color: #fff;
+}
+
+footer {
+    background-color: #e8a746;
+    box-shadow: 3px 2px 0px 1px #797979;
+}
+
+footer ul {
+    list-style: none;
+    display: -webkit-box;
+    margin-left: 37%;
+    margin-top: 20px;
+
+}
+
+@media only screen and (max-width:700px) {
+    footer ul {
+        margin-left: 0;
+    }
+}
+
+footer ul li {
+    margin: 20px;
+}
